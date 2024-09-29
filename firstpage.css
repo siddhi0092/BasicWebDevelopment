@@ -1,0 +1,197 @@
+/* h1 {
+    color:aquamarine;
+}
+
+p {
+    color: rgb(120, 120, 228);
+}
+
+button{
+    color:cadetblue;
+    background-color: beige;
+}
+
+body {
+    background-color: rosybrown;
+} */
+
+/*Selectors in CSS */
+/* Universal Selector - *{}
+Class selector - .myclass{}
+Element selector- h1{}
+id selector - #myid{} (id is a unique name)*/
+
+
+/* *{
+    color:pink;
+} */
+
+/* #HeadingOne{
+    color:yellow;
+}
+
+#HeadingTwo{
+    color:rgb(142, 90, 22);
+}
+
+.myClass{
+    color:blue;
+}
+
+div {
+    color: aliceblue;
+    background-color: blue;
+} */
+
+/* h1, h2, h3 {
+    color: red;
+} */
+
+ /* Text Properties
+ Text - align : left/ right/ center  */
+
+p {
+    text-align: center;    
+    /* start means left */
+}
+h1  {
+    text-align: center;
+    text-decoration: red  wavy underline;  
+    font-weight:100;
+    font-family:fantasy
+}
+
+
+/* TEXT DECORATION       (mdn web docs)
+UNDERLINE / OVERLINE / LINE-THROUGH
+*/
+
+
+a{
+    text-decoration: none;
+}
+
+/* TEXT PROPERTIES 
+font weight - normal/ bold/ bolder / lighter
+font weight- 100-900 
+
+font family: ariel 
+font family: arial, roboto
+*/
+
+#one{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif     
+    /* fall back mechanism */
+}
+
+#two {
+    font-family: cursive;
+}
+
+/* generic and specific font families */
+
+
+/* UNITS IN CSS    (SIZE)  absolute and relative
+Pixels(px)
+96px = 1inch
+font-size: 2px;  */
+
+#three{
+    font-size:25px;
+    /* line-height: ; distance in-between lines*/  
+}
+
+/* TEXT PROPERTIES
+line-height:2px
+line-height:normal 
+
+text-transform
+uppercase/lowercase/capitalize (every word first word cap)/none (as usual text)*/
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* PART 2 */
+
+/* BOX MODEL IN CSS
+
+Height- 
+by default sets the height of the content area of the element
+div{
+height: 50px;  of the statement
+}
+
+
+Width- width of the element
+
+
+Border- element's border
+border-width: 2px;
+border-style: solid / dotted / dashed
+border-color: black;
+
+CanBeWrittenOnSingle line- border: 2px solid black
+ 
+Padding
+Margin
+
+->UNITS IN CSS
+-Relative (not absolute):   % em rem(root em) 
+1em is relative to the font size of the parent 
+2em is relative to the double of font size of the parent 
+in width the font size of element itself and not the parent
+
+rem - font size of the root element (eg: according to html tag)
+
+vh: Relative to 1% viewport height
+vw: relative to 1% viewport (the area of theweb page that is visible to the user) width
+
+POSITION:
+
+the position CSS property sets how an element is positioned in a document 
+
+position:
+(top, right, bottom, left, and z-index properties)
+
+1) static (default) - no properties are applicable
+2)relative- element is relative to itself
+3) absolute- positioned relative to its closest positioned ancestor.
+4)fixed - positioned relative to browser (removed from flow)
+5)sticky- positioned based on users scroll position
+
+
+Z-index
+it decides the stack level of elements
+Overlapping elements with a larger z-index cober those with a smaller one.
+
+z-index: auto(0)
+z-index: 1/2/...
+z-index: -1/-2/...
+
+
+
+BACKGROUND IMAGE AND BACKGROUND SIZE:
+
+background-image: url("image.png");
+(unsplash.com)
+(save the image in the same folder as VS code and then write the same url as you name it)
+
+background-size: cover/contain/auto
+background-repeat: no-repeat;
+
+
+
+LEVEL 4:
+
+
+
+Flexbox- flexible box layout
+-Flex container
+-flex item
+-cross axis
+-main axis
+
+It is a one-dimensional layout method for arranging items in rows or columns
+
+
+*/

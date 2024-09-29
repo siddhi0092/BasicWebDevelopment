@@ -1,0 +1,93 @@
+/* PART 2 */
+
+/* BOX MODEL IN CSS 
+
+border- radius : 10px;  (round shape around the box)
+border-radius : 50%;
+
+ PADDING -  creates space between border and the elements inside the border
+padding-left
+padding-right
+padding-top
+padding-bottom*/
+
+/* MARGIN - creates space between the border of one element to the border of another element
+margin: 50px
+margin: 1px 2px 3px 4px;
+top right bottom left  ->clockwise*/
+
+/* .my-box {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    text-align: center; 
+    line-height: 100px; 
+    border-radius: 25px;
+    padding-right: 0; 
+    margin: 10px; 
+    margin-top:50px;
+} */
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0F1111;
+}
+
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    color:#f08804
+}
+
+a {
+    margin: 100px;
+    text-decoration: none;
+} */
+
+
+
+/* DISPLAY PROPERTY
+display: inline/ block / inline-block / none]
+
+1)Inline - takes only the space required by the element. (no margin / padding)
+
+2)Block- Takes full space avaiblae in width.
+
+3)Inline-Block- Similar to inline but we can set margin and padding
+
+4)None- To remove element from document flow.
+ */
+
+div {
+    /* background-color: pink;
+    display: inline; */
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#box2 {
+    display: none;
+}
+
+/* Visibility- :hidden 
+when visibility is set to none, space for the element is reserved 
+but for display set to none, no space is reserved or blocked for the element.
+
+ALPHA CHANNEL- decides opacity (decides how darker the colour is)-- from(0-1) in decimals
+e.g: rgba(255,0,0,0.5)
+
+(RGBAlpha)
+*/

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Hello There!</h1>
+    <p> This is a paragraph</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, culpa.</p>
+    <h1> List of books to read </h1>
+    <p>There are alot of books to read for you</p>
+
+    <hr>
+    <!-- toggle word trap -->
+    <a href="www.google.com" class="me">Google</a>
+    <img src="img.png" alt="Human image" width="121px">
+    <!-- src add the url of the image, alt is used if the image is not loaded, so show the text instead of it-->
+
+    <!-- absolute and relative url -->
+     <hr>
+     <br>
+    <b>hello there</b> <br>
+    <i>hello there</i> <br>
+    <u> hello there</u>
+    <br>
+    <big>This is big</big>  <br>
+    <small>This is small</small>   <br>
+    <hr>
+
+    <!-- subscript and superscript-->
+     <p>CO <sub>2</sub></p>
+     <p>Ax <sup>2 </sup>+ bx + c </p>
+
+    <!-- arrows and symbols have different codes in html -->
+    <!-- Pre tag - pastes the code as it is  -->
+     <pre> 
+          hello
+          world
+          hey 
+          there
+     </pre>
+    <hr>
+    <!-- SEO -->
+
+    <!-- header contains nav (navigation bar) tag
+     main contains section, article, aside -->
+    <header> 
+        This is 
+        <nav>
+            Home
+            about
+        </nav>
+        <header>
+     <main> 
+        <!-- <p>this is main content</p> -->
+         <section>
+            <!-- display a particular part of your page -->
+         </section>
+         <article>
+            <!-- to represent a self-contained piece of content  -->
+         </article>
+         <aside>
+            <!-- something other than your content example ads -->
+         </aside>
+    </main>
+     <footer> This is footer</footer>
+
+     <a href="www.google.com" google  target="_main"> Siddhi's Website</a>
+
+     <!-- if we write img tag in anchor tag then img can redirect or act like a link -->
+<!-- make sure you keep the aspect ratio proper -->
+
+<section>
+    <div> <!--whole line is theres, is a block level element-->
+        <!-- used to pack things in a container -->
+         <h1>why love html</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam excepturi incidunt ut voluptas labore mollitia perspiciatis placeat cumque adipisci voluptate.</p>
+    </div> 
+    <div>
+        <h1>why love css</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium accusamus vel neque.</p>
+    </div>  
+
+    <span>   <!-- is an inline container, takes only the space it needs-->
+        <p>I am a span</p>
+    </span>
+    <span>
+        I am another span
+    </span>
+</section>
+
+<header>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+</header>
+
+
+<!-- CHAPTER 4 -->
+<ul>
+    type="square" <!--type="Circle, disc and many more"-->
+    <!-- ul stands for unordered list -->
+     <!-- li stands for list item -->
+      <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Contact</li>
+</ul>
+<ol>
+    <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Contact</li>
+</ol>
+
+
+<div>
+    <table>
+        <thead>
+            <tbody>
+        <!-- tr (table row), td (tabular data) and th (table header) -->
+         <!-- to add a caption in table, we use a caption tag -->
+        
+        <caption>Max Scores  by different players in FauG</caption> <!--can be taken outside of thead as well-->
+        <tr>
+            <th>S.No</th>
+            <th>Player Name</th>
+            <th colspan= "1"> Max Score</th>
+            <!-- <th>Game</th> -->
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>Siddhi</td>
+            <td>M100</td>
+            <td>coc</td>
+         </tr>
+        </tbody> 
+        </thead>
+    </table>
+</div>
+
+<div>
+    <h1>Travel form for our trip</h1>
+    <form action="form.php">
+        <input type="radio" value="Section A" name="Section" id="sectionid" class="red">Section A
+        <label for="want foodcanteen">Want food canteen</label>
+        <br>
+        <label for="Sectionid"></label>
+        <!-- form tag is used to collect input from the user-->
+         <!-- input element can be of a tyoe text, checkbox, radio, submit, file-->  
+         <input type="text" placeholder="Enter your name">
+          <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain why you want to join"></textarea>
+          <br>
+          <select name="car" id="car">select your car
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+          </select>
+    </form>
+</div>
+
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BsDoLVMnmZs?si=mWeR9vFCsw6NSLmB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <video src="vid.mp4" controls autoplay loop width="523px"></video>
+</div>
+
+
+
+</body>
+</html>
+ 
