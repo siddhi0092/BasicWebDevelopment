@@ -36,7 +36,7 @@ div {
 #box5 {
         background-color: blue;
     } */
-
+/* 
 div{
     background-color: pink;
     display: flex
@@ -52,3 +52,140 @@ li {
     list-style-type: none;
     display: inline;
 }
+
+.outer {
+    height: 400px;
+    width: 400px;
+
+
+    MEDIA QUERIES
+(on the screen size)
+
+    @media (min-width 600px){
+    div {
+    background-color: green;
+    }
+} 
+    
+@media(min-width: 200px) and (max-width: 300px){
+div{
+background-color: red;
+}
+}
+
+
+
+LEVEL 5:
+
+
+
+TRANSITIONS
+
+(Transitions enable you to define the transition between two states of an element)
+
+
+(Transition shorthand: 
+property name | duration | timing-function | delay )
+
+
+div:hover{
+background-color: blue;
+color: white;
+}
+
+div:active{
+background-color:pink;
+}
+
+
+
+CSS TRANSFORM 
+(Used to apply 2D and 3D transformations to an element)
+
+1)rotate
+
+div{
+transform: rotate(45deg);
+rotate:45deg;
+rotateX: 45deg;
+rotateY:45deg;
+rotateZ: 45deg;
+position : absolute;
+
+2)scale
+
+div{
+transform: scale(2);   scale(1,2) -->first value is for x axis and 2nd for y axis
+
+3)translate
+
+(shift from its place on the screen)
+
+transform: translate(40px);
+
+4)skew
+ ( kind of like pulling from both the sides)
+transform: skew(30deg);
+
+
+
+ANIMATION
+
+@keyframe myname{
+from { font-size : 20px; }
+to { font-size: 40px; }
+
+ANIMATION PROPERTIES:
+
+1)animation-name
+2)animation-duration
+3)animation-timing-function
+4)animation-delay
+5)animation-iteration-count  (how many times the animation will be applied)
+6)animation-direction  (direction of animation)
+
+Animation property Shorthand:
+
+(animation: name duration timing-function delay iteration-count direction)
+
+
+
+example:
+
+@keyframes colorAnimate {
+from { background-color : aquamarine; }
+to { background-color: red; }
+
+% in Animation:
+
+instead of from and to we can write 0% or 100% or even 50% for any stage in between
+
+}
+*/
+
+.loader {
+
+/* STEP 1 */
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid blue;
+    border-top: 20px solid black;
+    animation: spinAnimate 3s ease-in 0s infinite normal;
+/* border-radius: 50%; */
+/* border-top: 10px solid red;(and many more)*/
+
+}
+/* STEP 2- (ANIMATION) */
+
+/* keyframe is just a template and not the animation */
+@keyframes spinAnimate {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
